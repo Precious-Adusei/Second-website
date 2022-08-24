@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url(portfolio2d.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;/*centers the pic*/
+    background-size: cover;/*makes the pic the cover*/
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.logo{
+    margin-right: 55%;
+    display: flex;
+    font-size: 35px;
+    color: rgb(236, 14, 14);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+span{
+    color: white;
+}
+.btn{
+    margin-left: 3%;
+    background-color: black;/*shows black border around text*/
+    color: white;/*text becomes white*/
+    font-weight: bold;
+    border: 2px solid;/*shows white border around it*/
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;/*removes the underline*/
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+nav ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: large;
+}
+.pra{
+    display: block;
+    text-align: center;
+}
+h3{
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 160px;
+}
+h1{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.input form{
+    width: 50px;
+    display: block;
+    margin: 5px;
+    position: relative;
+    max-width: 100%; 
+}
+.input form input:last-child{
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 10px;/*shadow around the boxes*/
+    border: 2px solid white;/*border around box becomes white*/
+}
+.btn1{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 80%;
+    margin-top: 70%;
+}
+.btn1:hover{/*what happens when mouse hovers over it*/
+    background-color: red;
+    color: white;
+}
